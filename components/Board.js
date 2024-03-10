@@ -24,17 +24,19 @@ function Board() {
     }
   }, []);
 
-  const onDragEnd = (re) => {
-    if (!re.destination) return;
+  const onDragEnd = (result) => {
+    if (!result.destination) return;
     let newBoardData = boardData;
     var dragItem =
-      newBoardData[parseInt(re.source.droppableId)].items[re.source.index];
-    newBoardData[parseInt(re.source.droppableId)].items.splice(
-      re.source.index,
+      newBoardData[parseInt(result.source.droppableId)].items[
+        result.source.index
+      ];
+    newBoardData[parseInt(result.source.droppableId)].items.splice(
+      result.source.index,
       1
     );
-    newBoardData[parseInt(re.destination.droppableId)].items.splice(
-      re.destination.index,
+    newBoardData[parseInt(result.destination.droppableId)].items.splice(
+      result.destination.index,
       0,
       dragItem
     );
