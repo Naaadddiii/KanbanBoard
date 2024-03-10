@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Backlog",
+    "items": [
+      {
+        "id": 1,
+        "priority": 0,
+        "title": "Nextjs and tailwindcss",
+        "chat": 1,
+        "attachment": 2
+      },
+      {
+        "id": 2,
+        "priority": 2,
+        "title": "House of web3",
+        "chat": 10,
+        "attachment": 4
+      }
+    ]
+  },
+  {
+    "name": "In Progress",
+    "items": [
+      {
+        "id": 3,
+        "priority": 1,
+        "title": "Padmanaban.",
+        "chat": 0,
+        "attachment": 3
+      }
+    ]
+  },
+  {
+    "name": "In Review",
+    "items": [
+      {
+        "id": 4,
+        "priority": 2,
+        "title": "kanban Board.",
+        "chat": 13,
+        "attachment": 2
+      },
+      {
+        "id": 5,
+        "priority": 0,
+        "title": "Helooooo",
+        "chat": 0,
+        "attachment": 0
+      }
+    ]
+  },
+  {
+    "name": "Completed",
+    "items": [
+      {
+        "id": 6,
+        "priority": 0,
+        "title": "Hello world",
+        "chat": 13,
+        "attachment": 2
+      },
+      {
+        "id": 7,
+        "priority": 1,
+        "title": "welcome!",
+        "chat": 0,
+        "attachment": 0
+      },
+      {
+        "id": 8,
+        "priority": 2,
+        "title": "Kanban board using next",
+        "chat": 5,
+        "attachment": 2
+      }
+    ]
+  }
+]
